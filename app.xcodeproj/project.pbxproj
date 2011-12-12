@@ -33,10 +33,11 @@
 		73D6E7DC144FC691001D16F9 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 73D6E7DB144FC691001D16F9 /* Capture.bundle */; };
 		73D6E7DE144FC691001D16F9 /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73D6E7DD144FC691001D16F9 /* PhoneGap.plist */; };
 		73D6E7E2144FC691001D16F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D6E7E1144FC691001D16F9 /* AppDelegate.m */; };
+		73D6E7EB144FC6B0001D16F9 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 73D6E7EA144FC6B0001D16F9 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		73D6E79D144FC691001D16F9 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D6E79D144FC691001D16F9 /* COPDmock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COPDmock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D6E7A1144FC691001D16F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		73D6E7A3144FC691001D16F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		73D6E7A5144FC691001D16F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,10 +51,10 @@
 		73D6E7B5144FC691001D16F9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		73D6E7B7144FC691001D16F9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		73D6E7B9144FC691001D16F9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		73D6E7BD144FC691001D16F9 /* app-Info.plist */ = {isa = PBXFileReference; path = "app-Info.plist"; sourceTree = "<group>"; };
+		73D6E7BD144FC691001D16F9 /* app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "app-Info.plist"; sourceTree = "<group>"; };
 		73D6E7BF144FC691001D16F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73D6E7C1144FC691001D16F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		73D6E7C3144FC691001D16F9 /* app-Prefix.pch */ = {isa = PBXFileReference; path = "app-Prefix.pch"; sourceTree = "<group>"; };
+		73D6E7C3144FC691001D16F9 /* app-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "app-Prefix.pch"; sourceTree = "<group>"; };
 		73D6E7C4144FC691001D16F9 /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		73D6E7C9144FC691001D16F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		73D6E7CD144FC691001D16F9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -64,9 +65,10 @@
 		73D6E7D9144FC691001D16F9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		73D6E7DB144FC691001D16F9 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		73D6E7DD144FC691001D16F9 /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
-		73D6E7E0144FC691001D16F9 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		73D6E7E0144FC691001D16F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		73D6E7E1144FC691001D16F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		73D6E7E4144FC691001D16F9 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		73D6E7E4144FC691001D16F9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		73D6E7EA144FC6B0001D16F9 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		73D6E78F144FC690001D16F9 = {
 			isa = PBXGroup;
 			children = (
+				73D6E7EA144FC6B0001D16F9 /* www */,
 				73D6E7BB144FC691001D16F9 /* app */,
 				73D6E7A0144FC691001D16F9 /* Frameworks */,
 				73D6E79E144FC691001D16F9 /* Products */,
@@ -113,7 +116,7 @@
 		73D6E79E144FC691001D16F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73D6E79D144FC691001D16F9 /* app.app */,
+				73D6E79D144FC691001D16F9 /* COPDmock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,7 +249,7 @@
 			);
 			name = app;
 			productName = app;
-			productReference = 73D6E79D144FC691001D16F9 /* app.app */;
+			productReference = 73D6E79D144FC691001D16F9 /* COPDmock.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -290,6 +293,7 @@
 				73D6E7DA144FC691001D16F9 /* Default@2x.png in Resources */,
 				73D6E7DC144FC691001D16F9 /* Capture.bundle in Resources */,
 				73D6E7DE144FC691001D16F9 /* PhoneGap.plist in Resources */,
+				73D6E7EB144FC6B0001D16F9 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +425,7 @@
 					"-weak_library",
 					/usr/lib/libSystem.B.dylib,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = COPDmock;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -431,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tatsuya Sato (4F33Q3ZPUV)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
@@ -448,7 +453,8 @@
 					"-weak_library",
 					/usr/lib/libSystem.B.dylib,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = COPDmock;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "54F6DBB2-9F16-47FD-81D6-45F25D660C43";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -474,6 +480,7 @@
 				73D6E7E9144FC691001D16F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
